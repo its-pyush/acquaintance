@@ -1,0 +1,28 @@
+{
+  "name": "acquaintance",
+  "version": "1.0.0",
+  "description": "Hi There!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "pyush": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/its-pyush/acquaintance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/its-pyush/acquaintance/issues"
+  },
+  "homepage": "https://github.com/its-pyush/acquaintance#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "nodemon": "^3.1.11"
+  }
+}
